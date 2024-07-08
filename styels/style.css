@@ -79,3 +79,92 @@ body{
     width: 800px;
    
 }
+/* midnight party styles starts here */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    border:2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: linear-gradient(to right, rgba(7, 2, 17), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.midnight-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.midnight-heading{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 26px;
+}
+.midnight-descrip{
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.midnight-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.midnight-img{
+    margin-top: 68px;
+    
+}
+/* date time section styles starts here */
+.date-time-container{
+    width: 1320px;
+    height: 482px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+.date-time-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+
+}
+.date-time-content span{
+    color: rgb(255, 0, 0);
+}
+.date-time-content button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+background: rgb(255, 0, 0);
+
+
+}
+.date-time-content p{
+    padding-bottom: 7px;
+}
+
+    
+   
