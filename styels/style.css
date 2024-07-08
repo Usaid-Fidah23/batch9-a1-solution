@@ -83,7 +83,7 @@ body{
 .midnight-party-container{
     width: 1320px;
     height: 600px;
-    border:2px solid red;
+  
     margin: 0 auto;
     margin-top: 120px;
     background-image: linear-gradient(to right, rgba(7, 2, 17), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
@@ -126,7 +126,7 @@ body{
 .date-time-container{
     width: 1320px;
     height: 482px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
@@ -144,9 +144,6 @@ body{
     font-weight: 600;
     padding-top: 100px;
     padding-bottom: 100px;
-    
-    
-
 }
 .date-time-content span{
     color: rgb(255, 0, 0);
@@ -159,12 +156,98 @@ font-weight: 700;
 padding: 16px 32px 16px 32px;
 border-radius: 8px;
 background: rgb(255, 0, 0);
-
-
 }
 .date-time-content p{
     padding-bottom: 7px;
 }
+
+/* coming soon section style starts here */
+.coming-soon-container{
+    width: 1320px;
+    height: 463px;
+   
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.coming-soon-section{
+    display: flex;
+   
+    
+}
+
+    
+   
+
+.coming-soon-heading h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 104px;
+}
+.coming-soon-heading h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 16px;
+}
+.coming-soon-heading p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+.coming-soon-heading{
+    width: 33%;
+    margin-left: 20px;
+   
+    
+    padding-bottom: 100px;
+}
+.coming-soon-image{
+    width: 33%;
+   margin-top: 2px;
+   margin-left: 70px;
+   
+
+}
+.coming-soon-image img{
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 300px;
+padding: 30px;
+
+
+
+}
+.coming-soon-footer{
+    width: 33%;
+    margin-left: 120px;
+}
+.coming-soon-footer h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 16px;
+}
+.coming-soon-footer p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding-bottom: 43px;
+}
+.coming-soon-footer img{
+    width: 144px;
+    height: 132px;
+    margin-top: 20px;
+}
+
+
 
     
    
