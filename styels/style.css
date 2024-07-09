@@ -355,3 +355,128 @@ padding-bottom: 43px;
     height: 450px;
     border-radius: 16px;
 }
+
+/* newsletter section style starts here */
+.newsletter-container{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.newsletter-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.input{
+    text-align: center;
+    margin-bottom: 80px;
+    
+    
+}
+
+.email{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 267px;
+    border: none;
+}
+.input span{
+    padding-top: 23px;
+    padding-right: 56px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    border-radius: 0px 50px 50px 0px;
+
+    background: rgb(255, 0, 0);
+}
+
+
+
+/* footer section style starts here */
+.footer-container{
+    width: 1920px;
+    height: 609px;
+    
+    margin: 0 auto;
+    background-color: rgb(7, 2, 17);
+    padding-top: 120px;
+    
+
+}
+
+.footer-heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+#hr-1{
+    width: 1600px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.footer-icons{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 400px;
+    
+    margin-left: 750px;
+}
+.footer-ending{
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left, .right{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+    
+
+    
+
+
+
+
